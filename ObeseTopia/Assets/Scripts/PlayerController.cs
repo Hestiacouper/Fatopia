@@ -13,7 +13,9 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float timeStopJump = 0.1f;
     float timerStopJump = 0;
     bool canJump = true;
-    
+    private int playerFatValue = 1;
+    private bool bulldozer;
+    [SerializeField] private float jumpHeight;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetAxis("Jump") > 0.1f && canJump)
         {
             //Debug.Log("You try to jump");
-            direction.y += 10;
+            direction.y += jumpHeight;
             canJump = false;
             timerStopJump = timeStopJump;
         }
@@ -56,12 +58,64 @@ public class PlayerController : MonoBehaviour {
         canJump = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void PlayerAddFat()
     {
-        if (other.CompareTag("Jesus"))
+        switch (playerFatValue)
         {
-            Application.Quit();
-            Debug.Log("Quit");
+            case 1:
+            {
+                speed = 5;
+                playerFatValue += 1;
+                break;
+            }
+            case 2:
+            {
+                speed = 4.5f;
+                playerFatValue += 1;
+                break;
+            }
+            case 3:
+            {
+                speed = 3.5f;
+                playerFatValue += 1;
+                break;
+            }
+            case 4:
+            {
+                speed = 2.5f;
+                playerFatValue += 1;
+                break;
+            }
+            case 5:
+            {
+                speed = 2;
+                playerFatValue += 1;
+                break;
+            }
+            case 6:
+            {
+                speed = 1;
+                playerFatValue += 1;
+                break;
+            }
+            case 7:
+            {
+                speed = 0.1f;
+                playerFatValue += 1;
+                break;
+            }
+            case 8:
+            {
+                bulldozer = true;
+                break;
+            }
+
         }
+        
+
+        
+        
     }
+
+
 }

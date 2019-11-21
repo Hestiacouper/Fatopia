@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
     
     Vector2 direction;
     [SerializeField] private Sprite chadLessFit;
+    [SerializeField] private Sprite chadDadBod;
+    [SerializeField] private Sprite chadFat;
     [SerializeField]
     private float speed = 4;
     [SerializeField] float timeStopJump = 0.1f;
@@ -71,56 +73,37 @@ public class PlayerController : MonoBehaviour {
             }
             case 2:
             {
-                //speed = 4.5f;
                 speed = 3.5f;
                 playerFatValue += 1;
+                this.GetComponent<SpriteRenderer>().sprite = chadDadBod;
                 break;
             }
             case 3:
             {
-                //speed = 3.5f;
                 speed = 2;
                 playerFatValue += 1;
+                this.GetComponent<SpriteRenderer>().sprite = chadFat;
                 break;
             }
             case 4:
             {
-                //speed = 2.5f;
                 speed = 1;
                 playerFatValue += 1;
                 break;
             }
             case 5:
             {
-                //speed = 2;
                 speed = 0.1f;
                 playerFatValue += 1;
                 break;
             }
             case 6:
             {
-                //speed = 1;
-                //playerFatValue += 1;
-                break;
-            }
-            case 7:
-            {
-                //speed = 0.1f;
-                //playerFatValue += 1;
-                break;
-            }
-            case 8:
-            {
                 bulldozer = true;
                 break;
             }
-
         }
-        
-
-        
-        
     }
-
-
 }
+
+

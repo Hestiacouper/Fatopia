@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d7dda17-12ac-4562-a898-ae81f53aad69" name="Default Changelist" comment="" />
+    <list default="true" id="0d7dda17-12ac-4562-a898-ae81f53aad69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,18 +32,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="775" />
+          <entry key="cs" value="856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="775" />
+          <entry key="C#" value="856" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,20 +63,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="402">
+              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding>
-                <marker date="1574261644944" expanded="false" signature="6:92" ph="..." />
-                <marker date="1574261644944" expanded="true" signature="140:2611" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="537:594" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="619:661" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="724:1109" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="920:1094" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="1161:1298" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="1199:1292" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="1342:1420" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="1452:2607" ph="{...}" />
-                <marker date="1574261644944" expanded="true" signature="1490:2573" ph="{...}" />
+                <marker date="1574337950118" expanded="false" signature="6:92" ph="..." />
+                <marker date="1574337950118" expanded="true" signature="140:2658" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="674:731" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="756:798" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="861:1246" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1057:1231" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1298:1435" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1336:1429" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1479:1557" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1589:2656" ph="{...}" />
+                <marker date="1574337950118" expanded="true" signature="1627:2650" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,9 +88,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -118,6 +121,7 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -135,7 +139,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,11 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1574258514601</updated>
       <workItem from="1574258520579" duration="3690000" />
+      <workItem from="1574336987113" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3690000" />
+    <option name="totallyTimeSpent" value="4654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,19 +202,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -218,12 +215,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,16 +251,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1572433906779" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572433906779" expanded="true" signature="121:403" ph="{...}" />
-            <marker date="1572433906779" expanded="true" signature="301:322" ph="{...}" />
-            <marker date="1572433906779" expanded="true" signature="380:401" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -273,20 +269,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="402">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
-            <marker date="1574261644944" expanded="false" signature="6:92" ph="..." />
-            <marker date="1574261644944" expanded="true" signature="140:2611" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="537:594" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="619:661" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="724:1109" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="920:1094" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="1161:1298" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="1199:1292" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="1342:1420" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="1452:2607" ph="{...}" />
-            <marker date="1574261644944" expanded="true" signature="1490:2573" ph="{...}" />
+            <marker date="1574337950118" expanded="false" signature="6:92" ph="..." />
+            <marker date="1574337950118" expanded="true" signature="140:2658" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="674:731" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="756:798" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="861:1246" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1057:1231" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1298:1435" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1336:1429" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1479:1557" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1589:2656" ph="{...}" />
+            <marker date="1574337950118" expanded="true" signature="1627:2650" ph="{...}" />
           </folding>
         </state>
       </provider>

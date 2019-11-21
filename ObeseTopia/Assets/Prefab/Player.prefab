@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483942343407007534}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,8 +127,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d364bc0072a7745852ad2a5a630fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chadLessFit: {fileID: 21300000, guid: 0d8f0c9a65574684ba618ca3c1400bda, type: 3}
+  chadDadBod: {fileID: 21300000, guid: 801ce9670d05dd84794c290728965eb5, type: 3}
+  chadFat: {fileID: 21300000, guid: 39fa225a8b87de7449d8a39919e325e4, type: 3}
   speed: 4
   timeStopJump: 0.1
+  jumpHeight: 0
 --- !u!50 &483942343670033204
 Rigidbody2D:
   serializedVersion: 4

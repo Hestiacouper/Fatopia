@@ -70,38 +70,42 @@ public class PlayerController : MonoBehaviour {
             }
             case 2:
             {
-                speed = 4.5f;
+                //speed = 4.5f;
+                speed = 3.5f;
                 playerFatValue += 1;
                 break;
             }
             case 3:
             {
-                speed = 3.5f;
+                //speed = 3.5f;
+                speed = 2;
                 playerFatValue += 1;
                 break;
             }
             case 4:
             {
-                speed = 2.5f;
+                //speed = 2.5f;
+                speed = 1;
                 playerFatValue += 1;
                 break;
             }
             case 5:
             {
-                speed = 2;
+                //speed = 2;
+                speed = 0.1f;
                 playerFatValue += 1;
                 break;
             }
             case 6:
             {
-                speed = 1;
-                playerFatValue += 1;
+                //speed = 1;
+                //playerFatValue += 1;
                 break;
             }
             case 7:
             {
-                speed = 0.1f;
-                playerFatValue += 1;
+                //speed = 0.1f;
+                //playerFatValue += 1;
                 break;
             }
             case 8:

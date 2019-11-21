@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D body;
     
     Vector2 direction;
-    
+    [SerializeField] private Sprite chadLessFit;
     [SerializeField]
     private float speed = 4;
     [SerializeField] float timeStopJump = 0.1f;
@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour {
             {
                 speed = 5;
                 playerFatValue += 1;
+                this.GetComponent<SpriteRenderer>().sprite = chadLessFit;
                 break;
             }
             case 2:

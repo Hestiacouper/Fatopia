@@ -7,17 +7,17 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D body;
     
     Vector2 direction;
-    [SerializeField] private Sprite chadLessFit;
-    [SerializeField] private Sprite chadDadBod;
-    [SerializeField] private Sprite chadFat;
     [SerializeField]
     private float speed = 4;
     [SerializeField] float timeStopJump = 0.1f;
     float timerStopJump = 0;
     bool canJump = true;
-    private int playerFatValue = 1;
+    private int playerFatValue = 0;
     private bool bulldozer;
     [SerializeField] private float jumpHeight;
+    [SerializeField] private float[] fatSpeed;
+    [SerializeField] private Sprite[] spriteChads;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -62,27 +62,28 @@ public class PlayerController : MonoBehaviour {
 
     public void PlayerAddFat()
     {
-        switch (playerFatValue)
+        /*switch (playerFatValue)
         {
             case 1:
             {
                 speed = 5;
+                this.GetComponent<SpriteRenderer>().sprite = spriteChads[playerFatValue];
                 playerFatValue += 1;
-                this.GetComponent<SpriteRenderer>().sprite = chadLessFit;
+                
                 break;
             }
             case 2:
             {
                 speed = 3.5f;
                 playerFatValue += 1;
-                this.GetComponent<SpriteRenderer>().sprite = chadDadBod;
+                
                 break;
             }
             case 3:
             {
                 speed = 2;
                 playerFatValue += 1;
-                this.GetComponent<SpriteRenderer>().sprite = chadFat;
+               
                 break;
             }
             case 4:
@@ -102,7 +103,19 @@ public class PlayerController : MonoBehaviour {
                 bulldozer = true;
                 break;
             }
+        }*/
+
+        if (playerFatValue <= fatSpeed.Length - 1)
+        {
+            speed = fatSpeed[playerFatValue];
         }
+        
+        if (playerFatValue <= spriteChads.Length-1)
+        {
+            this.GetComponent<SpriteRenderer>().sprite = spriteChads[playerFatValue];
+        }
+
+        playerFatValue += 1;
     }
 }
 

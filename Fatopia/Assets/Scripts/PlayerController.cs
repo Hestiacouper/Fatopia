@@ -14,10 +14,10 @@ public class PlayerController : MonoBehaviour {
     bool canJump = true;
     private int playerFatValue = 0;
     private bool bulldozer;
-    [SerializeField] private float jumpHeight;
-    [SerializeField] private float[] arrayJumpHeight;
-    [SerializeField] private float[] arrayfatSpeed;
-    [SerializeField] private Sprite[] arrayspriteChads;
+    [SerializeField] float jumpHeight;
+    [SerializeField] float[] arrayJumpHeight;
+    [SerializeField] float[] arrayfatSpeed;
+    [SerializeField] Sprite[] arrayspriteChads;
     
     void Start()
     {

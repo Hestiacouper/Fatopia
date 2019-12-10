@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
@@ -16,9 +17,9 @@ public class PlayerController : MonoBehaviour {
     private bool bulldozer;
     [SerializeField] float jumpHeight;
     [SerializeField] float[] arrayJumpHeight;
-    [SerializeField] float[] arrayfatSpeed;
-    [SerializeField] Sprite[] arrayspriteChads;
-    
+    [SerializeField] float[] arrayFatSpeed;
+    [SerializeField] Sprite[] arraySpriteChads;
+    [SerializeField] int arraySizes;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -52,15 +53,18 @@ public class PlayerController : MonoBehaviour {
     }
     public void PlayerAddFat()
     {
- 
-        speed = arrayfatSpeed[playerFatValue];
+   
+        Debug.Log(playerFatValue);
+        speed = arrayFatSpeed[playerFatValue];
         jumpHeight = arrayJumpHeight[playerFatValue];
-        GetComponent<SpriteRenderer>().sprite = arrayspriteChads[playerFatValue];
-        
-        if (playerFatValue < 4)
+        GetComponent<SpriteRenderer>().sprite = arraySpriteChads[playerFatValue];
+  
+        if (playerFatValue < arraySizes)
         {
             playerFatValue += 1;
-        } 
+        }
+
+       
     }
 }
 

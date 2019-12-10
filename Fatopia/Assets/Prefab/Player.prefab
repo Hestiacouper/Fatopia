@@ -133,11 +133,18 @@ MonoBehaviour:
   timeStopJump: 0.1
   jumpHeight: 7
   arrayJumpHeight: []
-  arrayfatSpeed: []
+  arrayfatSpeed:
+  - 5
+  - 4
+  - 2.5
+  - 1
+  - 0.1
   arrayspriteChads:
   - {fileID: 21300000, guid: 04a033ad32e2094479f9d199dd7903b4, type: 3}
   - {fileID: 21300000, guid: 94cea5c5b8a50054cadb3ac06b327e78, type: 3}
   - {fileID: 21300000, guid: e6c5246e29a231b48a0c99cdc77a4645, type: 3}
+  - {fileID: 21300000, guid: bb454f5ad1c9cc842a87fc6e0cc8306d, type: 3}
+  - {fileID: 21300000, guid: 7129bcd5c80d4064ab68166f8e588005, type: 3}
 --- !u!50 &483942343670033204
 Rigidbody2D:
   serializedVersion: 4

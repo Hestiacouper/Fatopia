@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb310525-9c5a-4450-8aef-df726933458c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fatopia/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fatopia/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fatopia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fatopia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Wall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +40,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
-                <marker date="1575978699856" expanded="false" signature="6:97" ph="..." />
-                <marker date="1575978699856" expanded="true" signature="151:1127" ph="{...}" />
-                <marker date="1575978699856" expanded="true" signature="453:482" ph="{...}" />
-                <marker date="1575978699856" expanded="true" signature="500:1121" ph="{...}" />
-                <marker date="1575978699856" expanded="true" signature="593:1110" ph="{...}" />
-                <marker date="1575978699856" expanded="true" signature="1009:1108" ph="{...}" />
+                <marker date="1575978766613" expanded="false" signature="6:97" ph="..." />
+                <marker date="1575978766613" expanded="true" signature="151:1280" ph="{...}" />
+                <marker date="1575978766613" expanded="true" signature="494:523" ph="{...}" />
+                <marker date="1575978766613" expanded="true" signature="541:1168" ph="{...}" />
+                <marker date="1575978766613" expanded="true" signature="634:1162" ph="{...}" />
+                <marker date="1575978766613" expanded="true" signature="1045:1151" ph="{...}" />
+                <marker date="1575978766613" expanded="true" signature="1186:1275" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -218,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575893355563</updated>
-      <workItem from="1575893359028" duration="12758000" />
+      <workItem from="1575893359028" duration="13424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12758000" />
+    <option name="totallyTimeSpent" value="13424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,15 +354,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
-            <marker date="1575978699856" expanded="false" signature="6:97" ph="..." />
-            <marker date="1575978699856" expanded="true" signature="151:1127" ph="{...}" />
-            <marker date="1575978699856" expanded="true" signature="453:482" ph="{...}" />
-            <marker date="1575978699856" expanded="true" signature="500:1121" ph="{...}" />
-            <marker date="1575978699856" expanded="true" signature="593:1110" ph="{...}" />
-            <marker date="1575978699856" expanded="true" signature="1009:1108" ph="{...}" />
+            <marker date="1575978766613" expanded="false" signature="6:97" ph="..." />
+            <marker date="1575978766613" expanded="true" signature="151:1280" ph="{...}" />
+            <marker date="1575978766613" expanded="true" signature="494:523" ph="{...}" />
+            <marker date="1575978766613" expanded="true" signature="541:1168" ph="{...}" />
+            <marker date="1575978766613" expanded="true" signature="634:1162" ph="{...}" />
+            <marker date="1575978766613" expanded="true" signature="1045:1151" ph="{...}" />
+            <marker date="1575978766613" expanded="true" signature="1186:1275" ph="{...}" />
           </folding>
         </state>
       </provider>

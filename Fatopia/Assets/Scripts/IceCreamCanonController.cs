@@ -10,8 +10,9 @@ public class IceCreamCanonController : MonoBehaviour
     private int correctionAngle = 90;
     [SerializeField] Transform firePoint;
     [SerializeField] float detectionDistance;
-
     [SerializeField] GameObject iceCreamPrefab;
+    private float shootTime = 1.0f;
+    private float nextShoot = 0.0f;
     
     void Start()
     {
@@ -27,10 +28,10 @@ public class IceCreamCanonController : MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(angle + correctionAngle, Vector3.forward);
             transform.rotation = rotation;
 
-            if (Input.GetKeyDown("f")) 
-            {
+            if (Time.time > nextShoot )
+            { 
+                nextShoot = Time.time + shootTime; 
                 shoot();
-                
             }
 
         }

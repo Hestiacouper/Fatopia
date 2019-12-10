@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="IceCream.cs" t="Include" />
           <e p="IceCreamCanonController.cs" t="Include" />
+          <e p="MenuManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SodaDiet.cs" t="Include" />
         </e>

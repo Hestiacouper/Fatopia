@@ -13,11 +13,6 @@ public class IceCreamCanonController : MonoBehaviour
     [SerializeField] GameObject iceCreamPrefab;
     private float shootTime = 1.0f;
     private float nextShoot = 0.0f;
-    
-    void Start()
-    {
-        shoot();
-    }
     void Update()
     {
         if (Vector2.Distance(target.position, transform.position) < detectionDistance)

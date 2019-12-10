@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float speed = 4;
     [SerializeField] float timeStopJump = 0.1f;
-    float timerStopJump = 0;
-    bool canJump = true;
+    private float timerStopJump = 0;
+    private bool canJump = true;
     private int playerFatValue = 0;
     private bool bulldozer;
     [SerializeField] float jumpHeight;
@@ -52,22 +52,15 @@ public class PlayerController : MonoBehaviour {
     }
     public void PlayerAddFat()
     {
-        if (playerFatValue <= arrayfatSpeed.Length - 1)
-        {
-            speed = arrayfatSpeed[playerFatValue];
-        }
-
-        if (playerFatValue <= arrayJumpHeight.Length - 1)
-        {
-            jumpHeight = arrayJumpHeight[playerFatValue];
-        }
-
-        if (playerFatValue <= arrayspriteChads.Length-1)
-        {
-            this.GetComponent<SpriteRenderer>().sprite = arrayspriteChads[playerFatValue];
-        }
+ 
+        speed = arrayfatSpeed[playerFatValue];
+        jumpHeight = arrayJumpHeight[playerFatValue];
+        GetComponent<SpriteRenderer>().sprite = arrayspriteChads[playerFatValue];
         
-        playerFatValue += 1;
+        if (playerFatValue < 4)
+        {
+            playerFatValue += 1;
+        } 
     }
 }
 

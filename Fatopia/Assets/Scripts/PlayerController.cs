@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float[] arrayFatSpeed;
     [SerializeField] Sprite[] arraySpriteChads;
     [SerializeField] int arraySizes;
+    private int dumbells = 0;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -65,6 +66,15 @@ public class PlayerController : MonoBehaviour {
         }
 
        
+    }
+    public void PickUpDumbells()
+    {
+        dumbells += 1;
+    }
+
+    public int getPlayerDumbells()
+    {
+        return dumbells;
     }
 }
 

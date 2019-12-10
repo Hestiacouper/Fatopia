@@ -5,11 +5,11 @@ using UnityEngine;
 public class SodaDiet : MonoBehaviour
 {
     private AudioSource audioSource;
-    private SpriteRenderer renderer;
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        renderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -18,7 +18,7 @@ public class SodaDiet : MonoBehaviour
         {
             audioSource.Play(0);
             other.GetComponent<PlayerController>().PlayerAddFat();
-            renderer.enabled = false;
+            spriteRenderer.enabled = false;
             Destroy(gameObject, audioSource.clip.length);
         }
     }

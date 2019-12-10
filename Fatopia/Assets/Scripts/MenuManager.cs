@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject panelMenuWin;
     [SerializeField] GameObject panelMainMenu;
     [SerializeField] String reloadScene;
+    [SerializeField] PlayerController playerController;
     void Start()
     {
         LoadMainMenu();
@@ -33,6 +34,11 @@ public class MenuManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Retry();
+        }
+
+        if (playerController.getPlayerDumbells() > 0)
+        {
+            LoadMenuWin();
         }
     }
 

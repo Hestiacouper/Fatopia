@@ -5,14 +5,19 @@ using UnityEngine;
 
 public class IceCreamCanonController : MonoBehaviour
 {
-    [SerializeField] float speed;
     [SerializeField] Transform target;
     private int correctionAngle = 90;
     [SerializeField] Transform firePoint;
     [SerializeField] float detectionDistance;
     [SerializeField] GameObject iceCreamPrefab;
-    private float shootTime = 1.0f;
+    private float shootTime = 2.0f;
     private float nextShoot = 0.0f;
+    private AudioSource audioSource;
+
+    void start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void Update()
     {
         if (Vector2.Distance(target.position, transform.position) < detectionDistance)
@@ -26,14 +31,15 @@ public class IceCreamCanonController : MonoBehaviour
             if (Time.time > nextShoot )
             { 
                 nextShoot = Time.time + shootTime; 
-                shoot();
+                Shoot();
             }
 
         }
     }
 
-    void shoot()
+    void Shoot()
     {
+        //audioSource.Play();
         Instantiate(iceCreamPrefab, firePoint.position, firePoint.rotation);
     }
   

@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb310525-9c5a-4450-8aef-df726933458c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/IceCream.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/IceCream.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/IceCreamCanon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/IceCreamCanon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SodaDiet.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SodaDiet.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs" afterDir="false" />
-    </list>
+    <list default="true" id="cb310525-9c5a-4450-8aef-df726933458c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="390">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <marker date="1575983007961" expanded="false" signature="6:97" ph="..." />
                 <marker date="1575983007961" expanded="true" signature="151:1229" ph="{...}" />
@@ -64,16 +49,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCream.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
-                <marker date="1575986588110" expanded="true" signature="6:78" ph="..." />
-                <marker date="1575986588110" expanded="true" signature="117:688" ph="{...}" />
-                <marker date="1575986588110" expanded="true" signature="281:442" ph="{...}" />
-                <marker date="1575986588110" expanded="true" signature="494:686" ph="{...}" />
+                <marker date="1575986644053" expanded="true" signature="6:78" ph="..." />
+                <marker date="1575986644053" expanded="true" signature="117:764" ph="{...}" />
+                <marker date="1575986644053" expanded="true" signature="281:442" ph="{...}" />
+                <marker date="1575986644053" expanded="true" signature="494:762" ph="{...}" />
+                <marker date="1575986644053" expanded="true" signature="540:756" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -109,13 +95,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="53" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="300">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
-                <marker date="1575986416918" expanded="false" signature="6:78" ph="..." />
-                <marker date="1575986416918" expanded="true" signature="117:576" ph="{...}" />
-                <marker date="1575986416918" expanded="true" signature="210:324" ph="{...}" />
-                <marker date="1575986416918" expanded="true" signature="377:569" ph="{...}" />
+                <marker date="1575986707670" expanded="false" signature="6:78" ph="..." />
+                <marker date="1575986707670" expanded="true" signature="117:652" ph="{...}" />
+                <marker date="1575986707670" expanded="true" signature="210:324" ph="{...}" />
+                <marker date="1575986707670" expanded="true" signature="377:645" ph="{...}" />
+                <marker date="1575986707670" expanded="true" signature="423:639" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,8 +126,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IceCream.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs" />
       </list>
     </option>
   </component>
@@ -224,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575893355563</updated>
-      <workItem from="1575893359028" duration="17007000" />
+      <workItem from="1575893359028" duration="18282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17007000" />
+    <option name="totallyTimeSpent" value="18282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,54 +277,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <marker date="1575983007961" expanded="false" signature="6:97" ph="..." />
-            <marker date="1575983007961" expanded="true" signature="151:1229" ph="{...}" />
-            <marker date="1575983007961" expanded="true" signature="490:1117" ph="{...}" />
-            <marker date="1575983007961" expanded="true" signature="583:1111" ph="{...}" />
-            <marker date="1575983007961" expanded="true" signature="994:1100" ph="{...}" />
-            <marker date="1575983007961" expanded="true" signature="1135:1224" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <marker date="1575986402661" expanded="false" signature="6:105" ph="..." />
-            <marker date="1575986402661" expanded="true" signature="153:1757" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="675:731" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="755:806" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="825:1161" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1025:1155" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1212:1304" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1250:1298" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1347:1384" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1415:1755" ph="{...}" />
-            <marker date="1575986402661" expanded="true" signature="1687:1740" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="53" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <marker date="1575986416918" expanded="false" signature="6:78" ph="..." />
-            <marker date="1575986416918" expanded="true" signature="117:576" ph="{...}" />
-            <marker date="1575986416918" expanded="true" signature="210:324" ph="{...}" />
-            <marker date="1575986416918" expanded="true" signature="377:569" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenuManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -363,15 +302,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SodaDiet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1575986707670" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575986707670" expanded="true" signature="117:652" ph="{...}" />
+            <marker date="1575986707670" expanded="true" signature="210:324" ph="{...}" />
+            <marker date="1575986707670" expanded="true" signature="377:645" ph="{...}" />
+            <marker date="1575986707670" expanded="true" signature="423:639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <marker date="1575986402661" expanded="false" signature="6:105" ph="..." />
+            <marker date="1575986402661" expanded="true" signature="153:1757" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="675:731" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="755:806" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="825:1161" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1025:1155" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1212:1304" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1250:1298" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1347:1384" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1415:1755" ph="{...}" />
+            <marker date="1575986402661" expanded="true" signature="1687:1740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCream.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding>
-            <marker date="1575986588110" expanded="true" signature="6:78" ph="..." />
-            <marker date="1575986588110" expanded="true" signature="117:688" ph="{...}" />
-            <marker date="1575986588110" expanded="true" signature="281:442" ph="{...}" />
-            <marker date="1575986588110" expanded="true" signature="494:686" ph="{...}" />
+            <marker date="1575986644053" expanded="true" signature="6:78" ph="..." />
+            <marker date="1575986644053" expanded="true" signature="117:764" ph="{...}" />
+            <marker date="1575986644053" expanded="true" signature="281:442" ph="{...}" />
+            <marker date="1575986644053" expanded="true" signature="494:762" ph="{...}" />
+            <marker date="1575986644053" expanded="true" signature="540:756" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IceCreamCanonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <marker date="1575983007961" expanded="false" signature="6:97" ph="..." />
+            <marker date="1575983007961" expanded="true" signature="151:1229" ph="{...}" />
+            <marker date="1575983007961" expanded="true" signature="490:1117" ph="{...}" />
+            <marker date="1575983007961" expanded="true" signature="583:1111" ph="{...}" />
+            <marker date="1575983007961" expanded="true" signature="994:1100" ph="{...}" />
+            <marker date="1575983007961" expanded="true" signature="1135:1224" ph="{...}" />
           </folding>
         </state>
       </provider>

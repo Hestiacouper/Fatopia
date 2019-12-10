@@ -64,14 +64,11 @@ public class PlayerController : MonoBehaviour {
         {
             playerFatValue += 1;
         }
-
-       
     }
     public void PickUpDumbells()
     {
         dumbells += 1;
     }
-
     public int getPlayerDumbells()
     {
         return dumbells;

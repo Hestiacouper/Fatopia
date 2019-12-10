@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour {
-
+public class CameraController : MonoBehaviour 
+{
     [SerializeField]
     float zValue = -10;
-
     [SerializeField] Transform target_;
-
     [SerializeField] bool doLerp = false;
-
     void FixedUpdate() 
     {
         if (doLerp) 

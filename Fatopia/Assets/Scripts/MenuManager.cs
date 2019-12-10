@@ -16,7 +16,6 @@ public class MenuManager : MonoBehaviour
     {
         LoadMainMenu();
     }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
@@ -30,7 +29,7 @@ public class MenuManager : MonoBehaviour
                 LoadMenuPause();
             }
         }
-
+     
         if (Input.GetKeyDown(KeyCode.R))
         {
             Retry();
@@ -41,53 +40,43 @@ public class MenuManager : MonoBehaviour
             LoadMenuWin();
         }
     }
-
-
     public void LoadMainMenu()
     {
         panelMainMenu.gameObject.SetActive(true);
         Time.timeScale = 0;
     }
-
     public void UnloadMainMenu()
     {
         panelMainMenu.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
-    
     public void LoadMenuPause()
     {
         panelMenuPause.gameObject.SetActive(true);
         Time.timeScale = 0;
     }
-
     public void UnloadMenuPause()
     {
         panelMenuPause.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
-
     public void LoadMenuWin()
     {
         panelMenuWin.gameObject.SetActive(true); 
         Time.timeScale = 0;
     }
-
     public void UnloadMenuWin()
     {
         panelMenuWin.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
-
     public void Quit()
     {
         Application.Quit();
         Debug.Log("quit");
     }
-
     public void Retry()
     {
-        //please don't forget to make this func later future me
         SceneManager.LoadScene(reloadScene);
     }
 }

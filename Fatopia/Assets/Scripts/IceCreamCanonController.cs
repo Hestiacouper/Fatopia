@@ -13,7 +13,6 @@ public class IceCreamCanonController : MonoBehaviour
     private float shootTime = 2.0f;
     private float nextShoot = 0.0f;
     private AudioSource audioSource;
-
     void start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -36,7 +35,6 @@ public class IceCreamCanonController : MonoBehaviour
 
         }
     }
-
     void Shoot()
     {
         //audioSource.Play();

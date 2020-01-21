@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour {
     private float timerStopJump = 0;
     private bool canJump = true;
     private int playerFatValue = 0;
-    private bool bulldozer;
     [SerializeField] float jumpHeight;
     [SerializeField] float[] arrayJumpHeight;
     [SerializeField] float[] arrayFatSpeed;
@@ -22,7 +21,6 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] int arraySizes;
     private int dumbells = 0;
 
-    [SerializeField] Canvas menuManagerCanvas;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -57,8 +55,6 @@ public class PlayerController : MonoBehaviour {
     }
     public void PlayerAddFat()
     {
-   
-        Debug.Log(playerFatValue);
         speed = arrayFatSpeed[playerFatValue];
         jumpHeight = arrayJumpHeight[playerFatValue];
         GetComponent<SpriteRenderer>().sprite = arraySpriteChads[playerFatValue];
@@ -72,7 +68,7 @@ public class PlayerController : MonoBehaviour {
     {
         dumbells += 1;
     }
-    public int getPlayerDumbells()
+    public int GetPlayerDumbells()
     {
         return dumbells;
     }

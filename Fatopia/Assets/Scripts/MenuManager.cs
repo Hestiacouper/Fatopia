@@ -36,7 +36,7 @@ public class MenuManager : MonoBehaviour
             Retry();
         }
 
-        if (playerController.getPlayerDumbells() > 0)
+        if (playerController.GetPlayerDumbells() > 0)
         {
             LoadMenuWin();
         }

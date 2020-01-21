@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject panelMenuPause;
     [SerializeField] GameObject panelMenuWin;
     [SerializeField] GameObject panelMainMenu;
+    [SerializeField] GameObject panelMenuLose;
     [SerializeField] String reloadScene;
     [SerializeField] PlayerController playerController;
     void Start()
@@ -38,6 +39,11 @@ public class MenuManager : MonoBehaviour
         if (playerController.getPlayerDumbells() > 0)
         {
             LoadMenuWin();
+        }
+
+        if (playerController.transform.position.y < -1)
+        {
+            LoadMenuLose();
         }
     }
     public void LoadMainMenu()
@@ -68,6 +74,18 @@ public class MenuManager : MonoBehaviour
     public void UnloadMenuWin()
     {
         panelMenuWin.gameObject.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void LoadMenuLose()
+    {
+        panelMenuLose.gameObject.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void UnloadMenuLose()
+    {
+        panelMenuLose.gameObject.SetActive(false);
         Time.timeScale = 1;
     }
     public void Quit()

@@ -5,12 +5,12 @@ using UnityEngine;
 public class IceCream : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Rigidbody2D body;
     private AudioSource audioSource;
     private SpriteRenderer renderer;
     void Start()
     {
-        rb.velocity = transform.right * speed;
+        body.velocity = transform.right * speed;
         audioSource = GetComponent<AudioSource>();
         renderer = GetComponent<SpriteRenderer>();
     }

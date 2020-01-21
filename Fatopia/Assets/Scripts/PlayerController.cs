@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] Sprite[] arraySpriteChads;
     [SerializeField] int arraySizes;
     private int dumbells = 0;
+
+    [SerializeField] Canvas menuManagerCanvas;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -36,7 +38,8 @@ public class PlayerController : MonoBehaviour {
         
         if (Input.GetAxis("Jump") > 0.1f && canJump)
         {
-            direction.y += jumpHeight;
+            //direction.y += jumpHeight;
+            direction = Vector2.up * jumpHeight;
             canJump = false;
             timerStopJump = timeStopJump;
         }

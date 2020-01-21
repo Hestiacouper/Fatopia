@@ -504,7 +504,7 @@ MonoBehaviour:
   panelMenuWin: {fileID: 369149579}
   panelMainMenu: {fileID: 1529211236}
   panelMenuLose: {fileID: 1441583132}
-  reloadScene: GameScene
+  reloadScene: FatopiaMainScene
   playerController: {fileID: 1248472558}
 --- !u!1 &232054300
 GameObject:
